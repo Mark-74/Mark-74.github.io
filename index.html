@@ -5,6 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Website</title>
+    <script>
+        function showScacchiera() {
+            var div = document.getElementById("scacchiera");
+            div.classList.toggle("hidden");
+        }
+
+        function showPawn() {
+            var div = document.getElementById("Pawn");
+            div.classList.toggle("hidden");
+        }
+
+        function clear() {
+            var div1 = document.getElementById("scacchiera");
+            var div2 = document.getElementById("Pawn");
+            
+            if(!(div1.classList.contains("hidden"))){
+                div1.classList.add("hidden");
+            }
+            if(!(div2.classList.contains("hidden"))){
+                div2.classList.add("hidden");
+            }
+        }
+    </script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,6 +78,311 @@
             font-size: 1.2em;
             margin: 10px 0;
         }
+
+        .quadrato {
+            width: 400px;
+            height: 400px;
+            background-color: rgb(106, 69, 0);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+
+        .riga1 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 150px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .riga2 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 100px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .riga3 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 50px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+
+        .riga4 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: 50%;
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .riga5 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% + 50px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .riga6 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% + 100px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .riga7 {
+            width: 400px;
+            height: 8px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% + 150px);
+            left: 35.5%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna1 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% - 150px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna2 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% - 100px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna3 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% - 50px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna4 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: 50%;
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna5 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% + 50px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna6 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% + 100px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .colonna7 {
+            width: 8px;
+            height: 400px;
+            background-color: rgb(250, 206, 144);
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% + 150px);
+            right: translateX(-50%);
+            z-index: 2;
+        }
+
+        .Pawn{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            transition:1s;
+            z-index: 3;
+        }
+
+        .head {
+            height:100px;
+            width:100px;
+            background-color:black;
+            display:flex;
+            position:relative;
+            border-radius:50%;
+            z-index: 3;
+        }
+
+        .glare{
+            height:20px;
+            width:10px;
+            background-color:#f7fecf;
+            position:absolute;
+            right:20px;
+            top:20px;
+            transform:rotate(-30deg);
+            border-radius:50%;
+            z-index: 3;
+        }
+
+        .main{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            z-index: 3;
+        }
+
+        .neck{
+            height:15px;
+            width:50px;
+            background-color:black;
+            border-radius:10px;
+            border:3px solid transparent;
+            margin-top:3px;
+            margin-bottom:3px;
+            z-index: 3;
+        }
+
+        .shoulders {
+            height:20px;
+            width:120px;
+            background-color:black;
+            border-top-left-radius:25px;
+            border-top-right-radius:25px;
+            margin-bottom:3px;
+            z-index: 3;
+        }
+
+        .torso{
+            width:100px;
+            height:140px;
+            background-color:black;
+            position:relative;
+            z-index: 3;
+        }
+
+        .torso-glare{
+            position:absolute;
+            background-color:#f7fecf;
+            border-radius:50%;
+            width:5px;
+            height:90px;
+            top:30px;
+            left:80%;
+            transform:rotate(-10deg);
+            z-index: 3;
+        }
+
+        .waist{
+            height:15px;
+            width:140px;
+            background-color:black;
+            z-index:2;
+            border-radius:20px;
+            margin-top:3px;
+            margin-bottom:3px;
+            z-index: 3;
+        }
+
+        .hips{
+            height:10px;
+            width:100px;
+            background-color:black;
+            position:relative;
+            z-index: 3;
+        }
+
+        .legs{
+            background-color:black;
+            width:180px;
+            height:60px;
+            border-top-right-radius:40px;
+            border-top-left-radius:40px;
+            position:relative;
+            z-index: 3;
+        }
+
+        .legs-glare{
+            position:absolute;
+            background-color:#f7fecf;
+            border-radius:50%;
+            width:5px;
+            height:25px;
+            top:10px;
+            left:87%;
+            transform:rotate(-45deg);
+            z-index: 3;
+        }
+
+        .feet{
+            width:200px;
+            height:15px;
+            background-color:black;
+            border-radius:20px;
+            margin-top:3px;
+            z-index: 3;
+        }
+
+        .hidden {
+            display: none;
+        }
+
     </style>
 </head>
 
@@ -62,16 +390,59 @@
     <div class="container">
         <h1 class="title">Website Title</h1>
         <div class="buttons">
-            <button>Button 1</button>
-            <button>Button 2</button>
-            <button>Button 3</button>
+            <button onclick="showScacchiera()">Scacchiera</button>
+            <button onclick="showPawn()">Pawn</button>
+            <button onclick="clear()">Clear</button>
         </div>
+
+        <div id="scacchiera" class="hidden">
+            <div class="riga1"></div>
+            <div class="riga2"></div>
+            <div class="riga3"></div>
+            <div class="riga4"></div>
+            <div class="riga5"></div>
+            <div class="riga6"></div>
+            <div class="riga7"></div>
+            <div class="colonna1"></div>
+            <div class="colonna2"></div>
+            <div class="colonna3"></div>
+            <div class="colonna4"></div>
+            <div class="colonna5"></div>
+            <div class="colonna6"></div>
+            <div class="colonna7"></div>
+            <div class="quadrato"></div>
+        </div>
+
+        <div id="Pawn" class = "hidden">
+            <div class="Pawn">
+                <div class="head">
+                    <div class="glare"></div>
+                </div>
+                <div class="main">
+                    <div class="neck"></div>
+                    <div class="shoulders"></div>
+                    <div class="torso">
+                        <div class="torso-glare"></div>
+                    </div>
+                    <div class="waist"></div>
+                    <div class="hips"></div>
+                    <div class="legs">
+                        <div class="legs-glare"></div>
+                    </div>
+                    <div class="feet"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
         <ul class="list">
             <li>Item 1</li>
             <li>Item 2</li>
             <li>Item 3</li>
             <li>Item 4</li>
         </ul>
+        -->
     </div>
 </body>
 

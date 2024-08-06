@@ -11,7 +11,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "A school project about a solitaire card game designed by a small team of students."
-canonicalURL: "https://mark-74.github.io/it/projects/"
+canonicalURL: "https://albovo.tech/en/projects/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -34,7 +34,6 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-
 # Solitario Croce ♣️
 Development of a game 🎮 in C# using the WPF framework; the game is a solitaire based on customized playing cards.
 
@@ -48,7 +47,8 @@ This project has been developed by:
 
 
 ## Game 🎮
-The game we developed is the [Solitario a Croce](https://www.youtube.com/watch?v=g7TJviLmuMg)
+The game we developed is the Solitario a Croce.
+{{< youtube g7TJviLmuMg >}}
 
 **How to play 🤔:** Five cards from the *deck* are placed in the center of the table to form a **cross ➕**. Four positions, called *bases*, are left free.
 

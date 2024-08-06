@@ -11,7 +11,7 @@ draft: false
 hidemeta: false
 comments: false
 description: "Un progetto scolastico riguardo un solitario di carte progettato da un piccolo team di studenti."
-canonicalURL: "https://mark-74.github.io/it/projects/"
+canonicalURL: "https://albovo.tech/it/projects/"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -47,7 +47,8 @@ Questo progetto è sviluppato da:
 
 
 ## Gioco 🎮
-Il gioco da sviluppare è il [Solitario a Croce](https://www.youtube.com/watch?v=g7TJviLmuMg)
+Il gioco da sviluppare è il Solitario a Croce.
+{{< youtube g7TJviLmuMg >}}
 
 **Come si gioca 🤔:** 5 carte del *mazzo* vengono posizionate al centro del tavolo a formare una **croce ➕**. Sono lasciate libere 4 postazioni dette *basi*.
 

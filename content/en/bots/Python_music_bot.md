@@ -2,7 +2,7 @@
 title: "Youtube music bot - Python"
 date: 2024-08-14T00:00:00+00:00
 # weight: 1
-tags: ["Youtube", "Discord", "python", "music", "api", "bot", "discord bot"]
+tags: ["Youtube", "Discord", "python", "music", "api", "bot", "discord bot", "yt_dlp"]
 author: ["Mark-74"]
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Python music bot which uses youtube's and yt_dlp's APIs"
+description: "Python music bot which uses yt_dlp's API"
 canonicalURL: "https://mark-74.github.io/en/bots"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -26,7 +26,7 @@ UseHugoToc: true
 cover:
     image: "" # TODO: add image path/url
     alt: "Python music bot" # alt text
-    caption: "Python music bot which uses youtube's and yt_dlp's APIs" # display caption under cover
+    caption: "Python music bot which uses yt_dlp's API" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -52,10 +52,10 @@ buttons are present to manage the current song.
 - Downloaded files cleaning
 there is a cleaning queue for the downloaded files that keeps saved only 2 files per server at any moment.
 - Youtube research
-thanks to youtube's api it's possible to research for songs directly from youtube.
+thanks to yt_dlp's api it's possible to research for songs directly from youtube.
 
 ## API 🔗
-The bot depends on youtube's api for researching songs and on yt_dlp's api to download them.
+The bot depends on yt_dlp's api for researching songs and downloading them.
 
 ## Class management 📜
 - MusicInstance

@@ -2,7 +2,7 @@
 title: "Youtube music bot - Python"
 date: 2024-08-14T00:00:00+00:00
 # weight: 1
-tags: ["Youtube", "Discord", "python", "music", "api", "bot", "discord bot"]
+tags: ["Youtube", "Discord", "python", "music", "api", "bot", "discord bot", "yt_dlp"]
 author: ["Mark-74"]
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -10,7 +10,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Bot della musica in python che usa le api di youtube e yt_dlp"
+description: "Bot della musica in python che usa l'api di yt_dlp"
 canonicalURL: "https://mark-74.github.io/it/bots"
 disableHLJS: true # to disable highlightjs
 disableShare: false
@@ -26,7 +26,7 @@ UseHugoToc: true
 cover:
     image: "" # TODO: add image path/url
     alt: "Python music bot" # alt text
-    caption: "Bot della musica in python che usa le api di youtube e yt_dlp" # display caption under cover
+    caption: "Bot della musica in python che usa l'api di yt_dlp" # display caption under cover
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
@@ -52,10 +52,10 @@ sono presenti bottoni per la gestione della canzone corrente.
 - Pulizia dei file scaricati
 è stata implementata una coda di pulizia per i file scaricati che ne mantiene solo 2 per server in ogni momento.
 - Ricerca su Youtube
-grazie all'api di youtube è possibile ricercare direttamente da youtube
+grazie all'api di yt_dlp è possibile ricercare direttamente da youtube
 
 ## API 🔗
-Il bot dipende dalle api di youtube per la ricerca delle canzoni e da quello di yt_dlp per scaricarle.
+Il bot dipende dall'api di yt_dlp per la ricerca delle canzoni e per scaricarle.
 
 ## Gestione classi 📜
 - MusicInstance

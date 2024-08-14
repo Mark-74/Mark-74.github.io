@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Music on Portfolio</title>
+    <link>https://mark-74.github.io/it/tags/music/</link>
+    <description>Recent content in Music on Portfolio</description>
+    <generator>Hugo -- 0.125.7</generator>
+    <language>it</language>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mark-74.github.io/it/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youtube music bot - Python</title>
+      <link>https://mark-74.github.io/it/bots/python_music_bot/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mark-74.github.io/it/bots/python_music_bot/</guid>
+      <description>Bot della musica in python che usa le api di youtube e yt_dlp</description>
+    </item>
+  </channel>
+</rss>

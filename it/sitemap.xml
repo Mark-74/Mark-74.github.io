@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://mark-74.github.io/it/tags/api/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -13,6 +13,136 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://mark-74.github.io/it/tags/api/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/bot/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/bot/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/bots/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/bots/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/bots/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/discord/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/discord/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/discord/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/discord-bot/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/discord-bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/discord-bot/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/music/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/music/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/music/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/python/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/python/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/youtube/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/youtube/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/youtube/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/bots/python_music_bot/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/bots/python_music_bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/bots/python_music_bot/"
                 />
   </url><url>
     <loc>https://mark-74.github.io/it/tags/dart/</loc>
@@ -52,19 +182,6 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://mark-74.github.io/it/tags/linux/"
-                />
-  </url><url>
-    <loc>https://mark-74.github.io/it/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mark-74.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://mark-74.github.io/it/"
                 />
   </url><url>
     <loc>https://mark-74.github.io/it/projects/</loc>
@@ -108,19 +225,6 @@
   </url><url>
     <loc>https://mark-74.github.io/it/projects/spotyfy_wrapper/</loc>
     <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://mark-74.github.io/it/tags/</loc>
-    <lastmod>2024-08-12T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mark-74.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://mark-74.github.io/it/tags/"
-                />
   </url><url>
     <loc>https://mark-74.github.io/it/tags/c%23/</loc>
     <lastmod>2024-07-23T00:00:00+00:00</lastmod>

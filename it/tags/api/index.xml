@@ -6,8 +6,15 @@
     <description>Recent content in Api on Portfolio</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>it</language>
-    <lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mark-74.github.io/it/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Youtube music bot - Python</title>
+      <link>https://mark-74.github.io/it/bots/python_music_bot/</link>
+      <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://mark-74.github.io/it/bots/python_music_bot/</guid>
+      <description>Bot della musica in python che usa le api di youtube e yt_dlp</description>
+    </item>
     <item>
       <title>Spotify Wrapper App</title>
       <link>https://mark-74.github.io/it/projects/spotyfy_wrapper/</link>

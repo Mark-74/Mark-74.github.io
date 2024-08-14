@@ -43,7 +43,7 @@ Questo progetto è stato sviluppato da:
 - **Balducci** Marco
 - **Shani** Lorenzo
 
-## Github Repository
+## Github Repository </>
 [qui](https://github.com/Mark-74/spotify_wrapper) puoi trovare il progetto finito. 
 
 

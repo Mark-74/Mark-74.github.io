@@ -47,15 +47,30 @@ Il bot è stato sviluppato da:
 
 ## Features ✨
 - Multi-Server
+
 Il bot gestisce più richieste simultaneamente e può quindi essere usato in più server allo stesso momento.
 - Video editor
+
 Il bot edita il video caricato dall'utente usando solo le risorse audio e video che già ha (per saperne di più leggere il README del progetto nella repo).
 - Video size optimization
+
 Il bot usa FFmpeg per ridurre lo spazio occupato dal video.
 - Results directly to users
+
 I video editati sono inviati agli utenti che li hanno richiesti tramite i messaggi diretti di Discord.
--Docker-Ready
+- Docker-Ready
+
 I docker file sono completi ed il bot è pronto per essere eseguito.
 
-## API 🔗
+## API e librerie 🔗
 Il bot utilizza l'api di AssemblyAi per i sottotitoli.
+
+``` requirements.txt
+discord>=2.3.2
+python-dotenv>=1.0.1
+moviepy>=1.0.3
+assemblyai>=0.26.0
+pysrt>=1.1.2
+imageio>=2.34.1
+nest-asyncio>=1.6.0
+```

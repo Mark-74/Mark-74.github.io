@@ -46,12 +46,16 @@ Il bot è stato sviluppato da:
 
 ## Features ✨
 - Multi-Server
+
 può riprodurre musica su più server contemporaneamente.
 - Interfaccia a bottoni
+
 sono presenti bottoni per la gestione della canzone corrente.
 - Pulizia dei file scaricati
+
 è stata implementata una coda di pulizia per i file scaricati che ne mantiene solo 2 per server in ogni momento.
 - Ricerca su Youtube
+
 grazie all'api di yt_dlp è possibile ricercare direttamente da youtube
 
 ## API 🔗
@@ -59,6 +63,8 @@ Il bot dipende dall'api di yt_dlp per la ricerca delle canzoni e per scaricarle.
 
 ## Gestione classi 📜
 - MusicInstance
+
 gestisce l'istanza del bot per ogni server discord in cui viene aggiunto e usato, al suo interno troviamo la logica per la riproduzione delle canzoni e per la gestione della queue, inoltre si interfaccia alla classe successiva per la pulizia dei file.
 - YoutubeDL
+
 non è una classe, ma un'insieme di funzioni utili per la gestione dei file scaricati.

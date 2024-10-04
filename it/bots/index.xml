@@ -15,5 +15,12 @@
       <guid>https://mark-74.github.io/it/bots/python_music_bot/</guid>
       <description>Bot della musica in python che usa l&amp;#39;api di yt_dlp</description>
     </item>
+    <item>
+      <title>Clip Editor bot</title>
+      <link>https://mark-74.github.io/it/bots/clip_editing_bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mark-74.github.io/it/bots/clip_editing_bot/</guid>
+      <description>Bot Discord in python che crea video coinvolgenti in formato smartphone 9:16</description>
+    </item>
   </channel>
 </rss>

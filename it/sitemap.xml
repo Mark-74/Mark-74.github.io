@@ -343,6 +343,18 @@
                 href="https://mark-74.github.io/it/tags/wpf/"
                 />
   </url><url>
+    <loc>https://mark-74.github.io/it/tags/assemblyai/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/assemblyai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/assemblyai/"
+                />
+  </url><url>
     <loc>https://mark-74.github.io/it/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -353,6 +365,78 @@
                 rel="alternate"
                 hreflang="it"
                 href="https://mark-74.github.io/it/categories/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/bots/clip_editing_bot/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/bots/clip_editing_bot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/bots/clip_editing_bot/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/editor/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/editor/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/editor/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/reels/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/reels/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/reels/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/shorts/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/shorts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/shorts/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/simple/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/simple/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/simple/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/it/tags/tiktok/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/tiktok/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/tiktok/"
                 />
   </url>
 </urlset>

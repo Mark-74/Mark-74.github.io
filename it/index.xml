@@ -6,8 +6,15 @@
     <description>Recent content on Portfolio</description>
     <generator>Hugo -- 0.125.7</generator>
     <language>it</language>
-    <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://mark-74.github.io/it/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pascal CTF Beginner 2025</title>
+      <link>https://mark-74.github.io/it/ctf/pascalctf2025/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://mark-74.github.io/it/ctf/pascalctf2025/</guid>
+      <description>Alcune writeups della pascalCTF Beginner ctf 2025.</description>
+    </item>
     <item>
       <title>Youtube music bot - Python</title>
       <link>https://mark-74.github.io/it/bots/python_music_bot/</link>

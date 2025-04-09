@@ -2,6 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mark-74.github.io/en/tags/binary/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/crypto/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/ctf/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/ctf/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/ctf/pascalctf2025/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/pascalctf/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/pascalctf2025/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mark-74.github.io/en/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="it"
+                href="https://mark-74.github.io/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mark-74.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://mark-74.github.io/en/tags/web/</loc>
+    <lastmod>2025-03-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://mark-74.github.io/en/tags/api/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -80,19 +130,6 @@
                 href="https://mark-74.github.io/en/tags/music/"
                 />
   </url><url>
-    <loc>https://mark-74.github.io/en/</loc>
-    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://mark-74.github.io/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mark-74.github.io/en/"
-                />
-  </url><url>
     <loc>https://mark-74.github.io/en/tags/python/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -104,19 +141,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://mark-74.github.io/en/tags/python/"
-                />
-  </url><url>
-    <loc>https://mark-74.github.io/en/tags/</loc>
-    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="https://mark-74.github.io/it/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mark-74.github.io/en/tags/"
                 />
   </url><url>
     <loc>https://mark-74.github.io/en/tags/youtube/</loc>

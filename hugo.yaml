@@ -49,6 +49,8 @@ languages:
         buttons:
           - name: "\U0001f4d2 Progetti"
             url: projects/
+          - name: "\U00002699 CTF"
+            url: ctf/
           - name: "🤖 Discord bots"
             url: bots/
     menu:
@@ -56,6 +58,10 @@ languages:
         - identifier: progetti
           name: "\U0001f4d2 Progetti"
           url: projects/
+          weight: 10
+        - identifier: CTF
+          name: "\U00002699 CTF"
+          url: ctf/
           weight: 10
         - identifier: Discord bots
           name: "🤖 Discord bots"
@@ -121,6 +127,8 @@ params:
     buttons:
       - name: "\U0001f4d2 Projects"
         url: projects/
+      - name: "\U00002699 CTF"
+        url: ctf/
       - name: "🤖 Discord bots"
         url: bots/
 
@@ -171,6 +179,10 @@ menu:
     - identifier: projects
       name: "\U0001f4d2 Projects"
       url: projects/
+      weight: 10
+    - identifier: CTF
+      name: "\U00002699 CTF"
+      url: ctf/
       weight: 10
     - identifier: Discord bots
       name: "🤖 Discord bots"
